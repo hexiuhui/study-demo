@@ -2,7 +2,7 @@
 
 ## bootstrap study
 
-> 使用bootstrap，响应式
+> 简单地使用bootstrap，响应式
 
 [源码地址](https://github.com/hexiuhui/study-demo/tree/master/bootstrap)
 

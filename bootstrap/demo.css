@@ -1,0 +1,39 @@
+.intro{
+  background:#00B2A2;
+  text-align:center;
+  color:#fff;
+  font-size:22px;
+  padding:40px 0;
+}
+.intro p{
+  padding:20px;
+}
+.desa{
+    padding:60px;
+}
+.desa-lead{
+    line-height: 2em;
+    font-size: 20px;
+    padding-bottom:30px;  
+   
+}
+
+.desa-content{
+    background:#474E5D;
+   line-height: 2em;
+    font-size: 20px;
+    color:#fff;
+    font-size: 20px;
+     padding:50px 0 50px 0;
+}
+.desa-content div{
+    padding-top: 30px;
+}
+
+.desa-footer{
+    height: 100px;
+    background:#2F2F2F;
+    text-align:center;
+    color:#fff;
+    line-height: 100px;
+}

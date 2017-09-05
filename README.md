@@ -15,5 +15,5 @@
 
 [源码地址](https://github.com/hexiuhui/study-demo/tree/master/shuangyibuju)
 
-[预览地址](https://github.com/hexiuhui/study-demo/tree/master/shuangyibuju/index.html)
+[预览地址](https://hexiuhui.github.io/study-demo/shuangyibuju/index.html)
 

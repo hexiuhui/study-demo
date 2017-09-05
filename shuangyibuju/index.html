@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>双翼布局</title>
+    <style>
+        .main {
+            width: 100%;
+            float: left;
+            background: #00938F;
+            height: 200px;
+        }
+        
+        .mainIn {
+            /*这个包裹的div很关键*/
+            margin: 0 30% 0 20%;
+        }
+        
+        .left {
+            width: 20%;
+            float: left;
+            background: #EAAB50;
+            height: 200px;
+            margin-left: -100%;
+            /*这个margin-left也很关键*/
+        }
+        
+        .right {
+            width: 30%;
+            float: left;
+            background: #70A6D4;
+            height: 200px;
+            margin-left: -30%;
+            /*right本身的宽度*/
+        }
+        /*清浮动*/
+        
+        .clearfix:before,
+        .clearfix:after {
+            content: '.';
+            height: 0;
+            display: block;
+            clear: both;
+            overflow: hidden;
+            visibility: hidden;
+        }
+        
+        .clearfix {
+            zoom: 1;
+        }
+        /*清浮动*/
+    </style>
+</head>
+
+<body>
+    <div class='clearfix'>
+
+        <div class='main'>
+            <div class='mainIn'>main,注意：main和left标签的位置，是main在前面
+            </div>
+        </div>
+        <div class='left'>left</div>
+        <div class='right'>right</div>
+    </div>
+    <div>test 本文代码就是这里偷来的http://www.cnblogs.com/front-end/archive/2012/08/29/zq_0406.html</div>
+</body>
+
+</html>

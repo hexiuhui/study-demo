@@ -20,11 +20,12 @@ body{
 }
 .balloon:after{
     position:absolute;
-    right: 0;
-    bottom: 0;
-    border: 8px solid #f84;
+    right: 1px;
+    bottom: 1px;
+    border: 8px solid transparent;
+    border-right-color: #f84;
     display: block;
     content: '';
-    width: 16px;
-    height: 16px;
+    transform: rotate(45deg);
+    border-radius: 50%;
 }

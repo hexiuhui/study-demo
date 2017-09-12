@@ -17,3 +17,10 @@
 
 [预览地址](https://hexiuhui.github.io/study-demo/shuangyibuju/index.html)
 
+## 纯js打气球
+
+> 不记得是哪个腾讯课堂讲的公开课了，老师讲的很好，里面知识涉及挺多的
+
+[源码地址](https://github.com/hexiuhui/study-demo/tree/master/balloon)
+
+[预览地址](https://hexiuhui.github.io/study-demo/balloon/index.html)

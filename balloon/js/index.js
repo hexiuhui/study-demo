@@ -51,9 +51,10 @@ var wW = window.innerWidth; //宽度
 var bz = 160;
 var aBalloon = [];
 var timer = null; //初始化定时器
-init(5);
+init(10);
 move();
-timer = setInterval(move, 60); //丢帧
+
+//timer = setInterval(move, 60); //丢帧
 //监听整个文档上发生的所有点击事件
 document.body.addEventListener('click', function(e) {
     //把当前事件的所有信息的集合对象event打印出来
@@ -94,4 +95,5 @@ function move() {
         }
         aBalloon[i]
     }
+    setTimeout(move,60);
 }
